@@ -45,7 +45,7 @@ namespace Logic
 
         /// <summary>
         /// Find concatenated sorted alphabetically string, w/o recurring characters.  
-        /// Asymptotic behavior O(n + m), where n and m - lengths of parameters. Use this method for any strings.
+        /// Asymptotic behavior O((n + m)log(n + m)), where n and m - lengths of parameters. Use this method for any strings.
         /// </summary>
         /// <param name="a">First string</param>
         /// <param name="b">Second string</param>
